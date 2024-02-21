@@ -8,6 +8,6 @@ class HeaderMobile extends Component
 {
     public function render()
     {
-        return view('livewire.inc.header-mobile');
+        return view('livewire.inc.header-mobile')->layout('components.layouts.app');
     }
 }

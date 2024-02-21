@@ -10,7 +10,9 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Dashboard</title>
+    <title>Auth</title>
+    <link href="{{asset('assets/logos/logos.jpg')}}" rel="icon">
+    <link href="{{asset('assets/logos/logos.jpg')}}" rel="apple-touch-icon">
 
     <!-- Fontfaces CSS-->
     <link href="{{asset('../Assets/css/font-face.css')}}" rel="stylesheet" media="all">
