@@ -27,7 +27,7 @@ class Login extends Component
         // Attempt to authenticate the user using the provided credentials
         if (Auth::attempt(['username' => $this->username, 'password' => $this->password], $this->remember)) {
             // Authentication passed, redirect the authenticated user
-            return redirect()->intended('welcome');
+            return redirect()->intended('home');
         } else {
             // Authentication failed, display error message
             session()->flash('error', 'Invalid username or password. Please try again.');

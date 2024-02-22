@@ -20,7 +20,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('home', Home::class);
+Route::get('home', Home::class)->name('home');
 
 // Auth Routes
 Route::middleware(['guest'])->group(function () {

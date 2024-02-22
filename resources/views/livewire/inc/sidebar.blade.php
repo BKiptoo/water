@@ -9,7 +9,7 @@
         <nav class="navbar-sidebar">
             <ul class="list-unstyled navbar__list">
                 <li class="active has-sub">
-                    <a class="js-arrow" href="#">
+                    <a class="js-arrow" href="{{route('home')}}">
                         <i class="fas fa-home"></i>Dashboard</a>
                     <ul class="list-unstyled navbar__sub-list js-sub-list">
                     </ul>

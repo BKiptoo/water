@@ -33,7 +33,7 @@ class Register extends Component
         ]);
 
         // Optionally, you might want to redirect the user after registration
-        return redirect()->to('login'); // Redirect to the homepage
+        return redirect()->to('home'); // Redirect to the homepage
     }
 
     public function render()
